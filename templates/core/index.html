@@ -40,7 +40,7 @@
                     {% else %}
                     <div class="carousel-item ">
                         {% endif %}
-                      <a href="{% url 'details' i.category.slug i.slug %}">   <img src="{{i.image.url}}" class="d-block w-100" alt="{{i.image_alt_name}}" style="height: 400px;"> </a>
+                      <a href="{% url 'details' i.category.slug i.slug %}">   <img src="{{i.image.url}}" class="d-block w-100" alt="{{i.image_alt_name}}" style="height: 500px;"> </a>
                     </div>
                     {% endfor %}
                 </div>
@@ -387,7 +387,7 @@
     <!------home_all_course_strip--------->
     <section class="home_all_course_strip mt-4 mb-4">
         <div class="container">
-            <label>Enroll, Learn, Grow, Repeat! Get ready to achieve your learning goals with Edureka</label>
+            <label>Enroll, Learn, Grow, Repeat! Get ready to achieve your learning goals with Let's Cook</label>
             <a href="#">View All Courses</a>
         </div>
     </section>
@@ -495,7 +495,7 @@
     <section class="Edureka-images mb-5">
         <div class="container-fluid">
             <div class="row">
-                <img src="{% static 'images/edurika.jpg' %}" class="img-fluid" alt="Responsive image">
+                <img src="{% static 'images/preview1.jpg' %}" class="img-fluid" style="width :2000px;" alt="Responsive image">
             </div>
         </div>
     </section>

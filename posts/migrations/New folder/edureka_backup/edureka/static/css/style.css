@@ -36,12 +36,12 @@ p {
     bottom: 0;
 }
 
-.navbar-light .navbar-brand {
+.navbar-dark .navbar-brand {
     color: rgb(255 255 255);
     font-weight: 600;
 }
 .navbar-statrs {
-	background: #0d569b;
+	background: black;
 }
 
 .navbar-statrs .fa-search {
@@ -1434,8 +1434,8 @@ content: "\f067";
     padding: 0;
 }
 .navbar-brand img{
-   width: 120px;
-   height: 30px;
+   width: 10px;
+   height: 10px;
 }
 .navbar-toggler {
     float: right;
